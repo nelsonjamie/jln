@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: grey;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,15 +24,21 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+.Nav-bar {
+  background-color: white;
+  color:#c3a343;
+
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 100px;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.gold-text {
+  color:#c3a343;
+  -webkit-text-fill-color: transparent;
+  background: -webkit-linear-gradient(transparent, transparent),
+  url(https://c.pxhere.com/photos/83/c1/background_glitter_glittering_background_bokeh_blurry_out_of_focus_gold_cute-1208734.jpg!d) repeat;
+  background: -o-linear-gradient(transparent, transparent);
+  -webkit-background-clip: text;
   }
-  to {
-    transform: rotate(360deg);
-  }
-}
